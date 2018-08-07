@@ -1,7 +1,7 @@
 {
-  "name": "dva-webpack-boilerplate",
+  "name": "react-redux-redux-saga-example",
   "version": "1.0.0",
-  "description": "Boilerplate for Dvajs + React + Webpack project with JSX, ES6 and decorator compilation",
+  "description": "a example of react+redux+redux-saga",
   "scripts": {
     "start": "webpack-dev-server --hot --port 11111 --config  build/webpack.dev.config.js",
     "build": "node build/build.js"
@@ -9,7 +9,8 @@
   "keywords": [
     "react",
     "reactjs",
-    "boilerplate"
+    "redux",
+    "redux-saga"
   ],
   "license": "MIT",
   "devDependencies": {

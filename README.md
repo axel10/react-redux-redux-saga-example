@@ -1,10 +1,8 @@
-dva-webpack-boilerplate
+react-redux-redux-saga-example
 =====================
 
-A minimal application that combines [Dvajs](https://github.com/dvajs/dva) with [React](https://facebook.github.io/react) and [Webpack](https://webpack.js.org).
-Supports ES6 and JSX compilation through babel.
-
-
+一个在线获取用户列表，点击项目可删除的例子
+An example of getting a list of users online and clicking on an item to delete
 
 ### Run the example
 
@@ -13,5 +11,4 @@ npm install
 npm start
 ```
 
-Browser should open automatically. Otherwise, navigate to the URL reported in the terminal
 

@@ -29,7 +29,7 @@ class List extends React.Component {
 
 export default connect((state) => {
   return {list: state.userList.list} // 将store与组件连接起来。connect第一个参数是一个函数，要求返回用来描述props和store的对象。
-})(List)
+})(List) // 高阶函数，第一次执行返回一个函数，需要再次执行以完成整个流程。
 
 List.propTypes = { // 用来描述组件的props
   dispatch: PropType.func,
